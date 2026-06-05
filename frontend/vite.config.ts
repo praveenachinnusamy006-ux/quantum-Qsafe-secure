@@ -16,7 +16,7 @@ export default defineConfig({
     allowedHosts: true,
     proxy: {
       "/api": {
-        target: "http://localhost:8080",
+        target: "https://quantum-backend-vlp8.onrender.com",
         changeOrigin: true,
       },
     },

@@ -30,7 +30,7 @@ npm install
 cp .env.example .env
 # Edit .env with your DATABASE_URL
 npm run dev
-# Runs on http://localhost:8080
+# Runs on https://quantum-backend-vlp8.onrender.com
 ```
 
 ### 3. Frontend
@@ -39,7 +39,7 @@ cd frontend
 npm install
 npm run dev
 # Runs on http://localhost:5173
-# Automatically proxies /api → http://localhost:8080
+# Automatically proxies /api → https://quantum-backend-vlp8.onrender.com
 ```
 
 ---

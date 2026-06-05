@@ -1,6 +1,6 @@
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 
-const API_BASE = "http://localhost:8080";
+const API_BASE = "https://quantum-backend-vlp8.onrender.com";
 
 async function apiFetch<T>(
   path: string,
